@@ -1,0 +1,190 @@
+<section class="dev-section">
+    <h1 class="main-title">Equipe de Desenvolvimento</h1>
+
+    <div class="dev-grid">
+        
+        <div class="dev-card">
+            <div class="dev-photo">
+                <img src="img/maxweel.desen1.png" alt="Maxweel Sabino">
+            </div>
+            <div class="dev-info">
+                <h2 class="dev-name">Maxweel Sabino R. X. da Silva</h2>
+                <span class="dev-role">Medicina Veterinária - UFFS</span>
+                <p class="dev-bio">Aluno do curso de Medicina Veterinária da Universidade Federal da Fronteira Sul (UFFS), bolsista de extensão do grupo EquiSaúde pelo Edital nº 223/GR/UFFS/2025.</p>
+                
+                <div class="dev-contact">
+                    <p>📧 maxwellsabino19@gmail.com</p>
+                    <p>📞 (92) 99243-7594</p>
+                    <p>📸 @m.sabino_10</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="dev-card">
+            <div class="dev-photo">
+                <img src="img/daliladesen2.png" alt="Dalila Moter">
+            </div>
+            <div class="dev-info">
+                <h2 class="dev-name">Dalila Moter Bevegnu</h2>
+                <span class="dev-role">Professora Orientadora - UFFS</span>
+                <p class="dev-bio">Professora associada da UFFS, ministrando bioquímica e farmacologia. Doutora pela UFSM, atua em inovação tecnológica e integração universidade-empresa com apoio da Fundação Araucária e CNPq.</p>
+                
+                <div class="dev-contact">
+                    <p>📧 dalila.benvegnu@uffs.edu.br</p>
+                    <p>📞 (46) 99114-7707</p>
+                    <p>📸 @dalilambenvegnu</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="dev-card">
+            <div class="dev-photo">
+                <img src="img/gabrieldesen3.png" alt="Gabriel Lyra">
+            </div>
+            <div class="dev-info">
+                <h2 class="dev-name">Gabriel Lyra Torquato</h2>
+                <span class="dev-role">Programador / Seg. da Informação</span>
+                <p class="dev-bio">Formado em Análise e Desenvolvimento de Sistemas pela UNOPAR. Programador PHP com mais de 5 anos de experiência e Pós-graduado em Segurança da Informação.</p>
+            </div>
+        </div>
+
+        <div class="dev-card">
+            <div class="dev-photo">
+                <img src="img/lucasdesen4.png" alt="Lucas Barreto">
+            </div>
+            <div class="dev-info">
+                <h2 class="dev-name">Lucas Barreto Somera</h2>
+                <span class="dev-role">Sistemas de Informação / Hipista</span>
+                <p class="dev-bio">Formado em Tecnologia em Análise e Desenvolvimento de Sistemas e graduando em Sistemas de Informação. Une expertise técnica com a prática do hipismo esporte.</p>
+                
+                <div class="dev-contact">
+                    <p>📧 barretosomera@gmail.com</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        background-color: #000;
+    }
+
+    .dev-section {
+        background-color: #000;
+        color: #fff;
+        padding: 60px 20px;
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+    }
+
+    .main-title {
+        color: #ffd700;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 2.2rem;
+        margin-bottom: 50px;
+        letter-spacing: 2px;
+        border-bottom: 2px solid #ffd700;
+        display: block;
+        max-width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 10px;
+    }
+
+    .dev-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 30px;
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+    .dev-card {
+        background: #0d0d0d;
+        border: 1px solid #222;
+        border-radius: 20px;
+        overflow: hidden;
+        transition: all 0.3s ease;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dev-card:hover {
+        transform: translateY(-10px);
+        border-color: #3498db;
+        box-shadow: 0 10px 30px rgba(52, 152, 219, 0.2);
+    }
+
+    .dev-photo {
+        width: 100%;
+        height: 280px;
+        overflow: hidden;
+        background: #1a1a1a;
+    }
+
+    .dev-photo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.5s ease;
+    }
+
+    .dev-card:hover .dev-photo img {
+        transform: scale(1.1);
+    }
+
+    .dev-info {
+        padding: 25px;
+        text-align: center;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dev-name {
+        color: #ffd700;
+        font-size: 1.3rem;
+        margin-bottom: 8px;
+    }
+
+    .dev-role {
+        color: #3498db;
+        display: block;
+        font-size: 0.85rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        letter-spacing: 1px;
+    }
+
+    .dev-bio {
+        color: #ccc;
+        font-size: 0.95rem;
+        line-height: 1.6;
+        text-align: justify;
+        margin-bottom: 20px;
+    }
+
+    /* Estilização dos contatos */
+    .dev-contact {
+        margin-top: auto;
+        padding-top: 15px;
+        border-top: 1px solid #222;
+        text-align: left;
+    }
+
+    .dev-contact p {
+        margin: 5px 0;
+        font-size: 0.85rem;
+        color: #3498db;
+    }
+
+    @media (max-width: 600px) {
+        .main-title { font-size: 1.6rem; }
+        .dev-grid { grid-template-columns: 1fr; }
+    }
+</style>
