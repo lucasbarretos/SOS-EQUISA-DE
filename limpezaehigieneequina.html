@@ -1,61 +1,13 @@
-<style>
-    .black-section {
-        background-color: #000000 !important;
-        color: #ffffff !important;
-        padding: 40px 0;
-    }
-
-    /* Garante que os títulos fiquem visíveis */
-    .black-section .main-title {
-        color: #ffd700 !important; /* Dourado para destaque */
-        text-align: center;
-        margin-bottom: 30px;
-        font-weight: bold;
-        text-transform: uppercase;
-    }
-
-    /* Ajuste dos cards para não sumirem no fundo */
-    .black-section .card {
-        background-color: #1a1a1a !important; /* Cinza muito escuro */
-        border: 1px solid #333 !important;
-        color: #ffffff !important;
-        margin-bottom: 20px;
-    }
-
-    .black-section .card-header {
-        background-color: #262626 !important;
-        color: #ffd700 !important;
-        border-bottom: 1px solid #333 !important;
-        font-weight: bold;
-    }
-
-    /* Garante que as listas fiquem visíveis */
-    .black-section ul li {
-        color: #eeeeee !important;
-    }
-
-    .black-section .topic-highlight {
-        color: #ffd700 !important;
-        font-weight: bold;
-    }
-
-    /* Centralização das imagens */
-    .black-section .img-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 15px 0;
-        width: 100%;
-    }
-
-    .black-section .img-container img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 8px;
-    }
-</style>
-
-<div class="container-fluid black-section">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/css/limpezaehigiene.css">
+</head>
+<body>
+    <div class="container-fluid black-section">
     <div class="container">
         <h1 class="main-title">Limpeza e Higiene Equina</h1>
         
@@ -156,13 +108,13 @@
             </div>
         </div>
 
-        <div class="card" style="border-color: #721c24 !important;">
-            <div class="card-header" style="background-color: #721c24 !important; color: #ffffff !important;">A baia que você não pode ter</div>
+        <div class="card card-danger">
+            <div class="card-header">A baia que você não pode ter</div>
             <div class="card-body text-center">
                 <div class="img-container">
                     <img src="src/img/baiasuja.png" alt="Exemplo de baia inadequada e suja">
                 </div>
-                <p class="mt-2" style="color: #f8d7da !important;">⚠️ <strong>Atenção:</strong> Ambientes como este são focos de bactérias e fungos, comprometendo seriamente a saúde do animal.</p>
+                <p class="alert-text">⚠️ <strong>Atenção:</strong> Ambientes como este são focos de bactérias e fungos, comprometendo seriamente a saúde do animal.</p>
             </div>
         </div>
 
@@ -196,3 +148,5 @@
         </div>
     </div>
 </div>
+</body>
+</html>

@@ -1,0 +1,89 @@
+/* Container Principal */
+*{
+    margin: 0;
+}
+.black-section {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    padding: 60px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Títulos Principais */
+.black-section .main-title {
+    color: #ffd700 !important; /* Dourado */
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Estilização dos Cards */
+.black-section .card {
+    background-color: #1a1a1a !important;
+    border: 1px solid #333 !important;
+    color: #ffffff !important;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.black-section .card-header {
+    background-color: #262626 !important;
+    color: #ffd700 !important;
+    border-bottom: 1px solid #333 !important;
+    font-weight: bold;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    font-size: 0.95rem;
+}
+
+/* Listas e Textos */
+.black-section ul li {
+    color: #eeeeee !important;
+    margin-bottom: 8px;
+}
+
+.black-section .topic-highlight {
+    color: #ffd700 !important;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: 20px;
+}
+
+/* Container de Imagens */
+.black-section .img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.black-section .img-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+/* Card de Alerta (Baia Suja) */
+.card-danger {
+    border-color: #721c24 !important;
+}
+
+.card-danger .card-header {
+    background-color: #721c24 !important;
+    color: #ffffff !important;
+}
+
+.alert-text {
+    color: #f8d7da !important;
+    margin-top: 15px;
+}
+
+/* Auxiliares de Layout */
+.mt-2 { margin-top: 10px; }
+.h-100 { height: 100%; }
