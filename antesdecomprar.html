@@ -4,364 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guia de Compra Equina - SOS Equisaúde</title>
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Informações Iniciais - SOS Equisaúde</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/css/antesdecomprar.css">
-    <style>
-        body {
-            background-color: #000000;
-            color: #ffffff;
-            font-family: 'Roboto', sans-serif;
-            padding: 40px 20px;
-        }
-
-        .card {
-            background-color: #0d0d0d;
-            border: 1px solid #333;
-            color: #ffffff;
-            margin-bottom: 20px;
-        }
-
-        .card-header {
-            background-color: #1a1a1a;
-            border-bottom: 1px solid #333;
-            color: #ffd700;
-            font-weight: bold;
-            text-align: center;
-        }
-
-        /* CENTRALIZAÇÃO TOTAL DAS IMAGENS */
-        .img-container {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 20px;
-        }
-
-        .img-container img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 10px;
-            border: 1px solid #444;
-        }
-
-        h2 {
-            color: #ffd700;
-            border-left: 5px solid #ffd700;
-            padding-left: 15px;
-            margin-bottom: 30px;
-            text-transform: uppercase;
-        }
-    </style>
-</head>
-<body>
-
-    <div class="container">
-        <h2 class="mb-4">💡 O que saber antes de começar</h2>
-        
-        <div class="row g-4">
-            <div class="col-md-6">
-                <div class="card h-100">
-                    <div class="card-header">Informações Essenciais I</div>
-                    <div class="card-body">
-                        <div class="img-container">
-                            <img src="img/oqsaberantes.png" alt="O que saber antes - Parte 1">
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6">
-                <div class="card h-100">
-                    <div class="card-header">Informações Essenciais II</div>
-                    <div class="card-body">
-                        <div class="img-container">
-                            <img src="img/oquesaberantes.png" alt="O que saber antes - Parte 2">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</body>
-</html>
-
-
-<style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #000; color: #fff; line-height: 1.6; padding: 20px; }
-        
-        .container { max-width: 900px; margin: 0 auto; background: #0d0d0d; border: 1px solid #333; border-radius: 15px; padding: 40px; box-shadow: 0 10px 50px rgba(0,0,0,0.9); }
-
-        header { text-align: center; border-bottom: 2px solid #ffd700; margin-bottom: 40px; padding-bottom: 20px; }
-        h1 { color: #ffd700; text-transform: uppercase; font-size: 2.4rem; letter-spacing: 2px; }
-        p.subtitle { color: #aaa; font-size: 1.1rem; margin-top: 10px; }
-
-        h2 { color: #ffd700; text-transform: uppercase; margin-top: 40px; margin-bottom: 20px; font-size: 1.6rem; display: flex; align-items: center; }
-        h2::before { content: " | "; color: #3498db; font-weight: bold; margin-right: 10px; }
-
-        h3 { color: #3498db; margin: 25px 0 15px 0; font-size: 1.3rem; text-transform: uppercase; border-bottom: 1px solid #222; padding-bottom: 5px; }
-
-        .highlight-box { background: rgba(52, 152, 219, 0.05); border-left: 5px solid #3498db; padding: 20px; margin: 20px 0; border-radius: 0 8px 8px 0; }
-        .warning-box { background: rgba(231, 76, 60, 0.1); border: 1px solid #e74c3c; padding: 15px; border-radius: 8px; margin: 20px 0; text-align: center; }
-        .warning-box strong { color: #e74c3c; text-transform: uppercase; }
-
-        .price-box { background: rgba(46, 204, 113, 0.05); border: 1px dashed #2ecc71; padding: 20px; border-radius: 10px; margin: 20px 0; }
-        .price-box span { color: #2ecc71; font-weight: bold; font-size: 1.5rem; }
-
-        ul { list-style: none; margin-bottom: 20px; }
-        ul li { margin-bottom: 12px; padding-left: 30px; position: relative; color: #ddd; }
-        ul li::before { content: "✔"; position: absolute; left: 0; color: #2ecc71; font-weight: bold; }
-
-        .bullet-list li::before { content: "•"; color: #ffd700; font-size: 1.5rem; line-height: 1; }
-
-        .checklist-final { background: #1a1a1a; border: 2px solid #ffd700; padding: 30px; border-radius: 12px; margin-top: 50px; }
-        .checklist-final h2 { margin-top: 0; justify-content: center; border-left: none; }
-        .checklist-final h2::before { content: "⭐"; border: none; }
-
-        .grid-container { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-        @media (max-width: 600px) { .grid-container { grid-template-columns: 1fr; } }
-
-        footer { text-align: center; margin-top: 50px; color: #444; font-size: 0.9rem; border-top: 1px solid #222; padding-top: 20px; }
-        strong { color: #fff; }
-    </style>
 </head>
 <body>
 
 <div class="container">
     <header>
         <h1>O que saber antes de comprar um cavalo?</h1>
-        <p class="subtitle">Guia Prático de Orientação Pré-Compra</p>
+        <p>Guia Prático de Orientação Pré-Compra - SOS Equisaúde</p>
     </header>
+
+    <section class="card-grid">
+        <div class="card">
+            <div class="card-header">Informações Essenciais I</div>
+            <div class="img-container">
+                <img src="src/img/oqsaberantes.png" alt="O que saber antes parte 1">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">Informações Essenciais II</div>
+            <div class="img-container">
+                <img src="src/img/oquesaberantes.png" alt="O que saber antes parte 2">
+            </div>
+        </div>
+    </section>
 
     <section>
         <h2>Qual o seu objetivo?</h2>
         <div class="highlight-box">
-            <p>Antes de fechar negócio, responda com clareza:</p>
-            <ul class="bullet-list">
+            <p>Defina claramente antes de fechar o negócio:</p>
+            <ul>
                 <li><strong>Uso:</strong> Lazer, esporte, reprodução ou trabalho?</li>
-                <li><strong>Modalidade:</strong> Laço, tambor, salto, marcha, cavalgada ou outra?</li>
-                <li><strong>Nível do Cavaleiro:</strong> Iniciante, intermediário ou avançado?</li>
+                <li><strong>Modalidade:</strong> Salto, marcha, laço ou cavalgada?</li>
+                <li><strong>Nível técnico:</strong> O cavalo é adequado para um iniciante ou profissional?</li>
             </ul>
-            <p><strong>Atenção:</strong> Comprar um cavalo incompatível com o nível técnico é uma das causas mais comuns de acidentes graves.</p>
         </div>
     </section>
 
     <section>
         <h2>Avaliação Veterinária Pré-Compra</h2>
         <div class="warning-box">
-            <strong>Exame Obrigatório:</strong> Nunca compre sem exame veterinário independente do vendedor.
+            <strong>AVISO OBRIGATÓRIO:</strong> Nunca compre um cavalo sem um exame veterinário independente do vendedor.
         </div>
         <h3>O exame deve incluir:</h3>
-        <ul class="grid-container">
-            <li>Avaliação clínica geral</li>
-            <li>Avaliação locomotora (teste de flexão)</li>
-            <li>Avaliação oftálmica (olhos)</li>
-            <li>Avaliação odontológica (dentes)</li>
-            <li>Auscultação cardíaca e respiratória</li>
-            <li>Exames: Raio-X, Ultrassom, Hemograma</li>
-        </ul>
-
-        <h3>Histórico Sanitário</h3>
-        <p>Você deverá solicitar formalmente:</p>
-        <ul class="bullet-list">
-            <li>Carteira de vacinação atualizada (Tétano, Influenza, Raiva);</li>
-            <li>Controle de vermifugação;</li>
-            <li>Histórico de cólicas e claudicação (manqueira);</li>
-            <li>Registro de cirurgias prévias.</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Idade Real do Animal</h2>
-        <p>Não confie apenas na palavra; a idade deve ser confirmada por:</p>
         <ul>
-            <li>Registro oficial da raça;</li>
-            <li>Microchip (se houver);</li>
-            <li>Avaliação dentária profissional.</li>
+            <li>Avaliação clínica geral e respiratória.</li>
+            <li>Teste de flexão (locomotor).</li>
+            <li>Histórico de vacinação e vermifugação.</li>
+            <li>Exames de Anemia Infecciosa Equina (AIE).</li>
         </ul>
-        <p><em>Nota: Cavalos jovens exigem treinamento caro; cavalos idosos podem demandar maior manutenção veterinária.</em></p>
-    </section>
-
-    <section>
-        <h2>Temperamento e Comportamento</h2>
-        <div class="highlight-box" style="border-left-color: #ffd700;">
-            <p>Observe atentamente a reação do animal ao:</p>
-            <ul class="bullet-list" style="column-count: 2;">
-                <li>Toque e manuseio</li>
-                <li>Momento de encilhar</li>
-                <li>Ferrageamento</li>
-                <li>Comportamento sob sela</li>
-            </ul>
-            <p class="warning-box" style="margin-bottom: 0;">⚠️ <strong>Nunca teste sozinho se não tiver experiência.</strong></p>
-        </div>
     </section>
 
     <section>
         <h2>Custos de Manutenção</h2>
         <div class="price-box">
-            <p>O custo mensal pode variar muito, mas <span>dificilmente é baixo.</span> Considere gastos fixos com:</p>
-            <ul class="grid-container" style="margin-top: 15px;">
-                <li>Alimentação (feno, ração, suplemento)</li>
-                <li>Ferrador (a cada 30–45 dias)</li>
-                <li>Vacinas e Vermífugos</li>
-                <li>Atendimento veterinário eventual</li>
-                <li>Estrutura (manutenção de baias/cercas)</li>
+            <p>Lembre-se: o custo de compra é o menor dos gastos. Mantenha planejado:</p>
+            <ul>
+                <li>Alimentação (Feno, Ração e Sal Mineral).</li>
+                <li>Ferrageamento (a cada 35-45 dias).</li>
+                <li>Reserva para emergências veterinárias.</li>
             </ul>
         </div>
     </section>
 
     <section>
-        <h2>Estrutura Necessária</h2>
-        <p>O local de moradia do cavalo precisa garantir o bem-estar básico:</p>
-        <ul class="bullet-list">
-            <li>Baia ventilada e segura;</li>
-            <li>Piquete com cerca adequada (sem arame farpado);</li>
-            <li>Água limpa à vontade e sombreamento.</li>
-        </ul>
-        <p><strong>Risco:</strong> Sem estrutura adequada, o risco de doenças e acidentes aumenta drasticamente.</p>
+        <h2>Resumo Pré-Compra</h2>
+        <div class="checklist-grid">
+            <div class="btn-check">Definir objetivo de uso</div>
+            <div class="btn-check">Exame veterinário completo</div>
+            <div class="btn-check">Conferir histórico sanitário</div>
+            <div class="btn-check">Avaliar temperamento e sela</div>
+            <div class="btn-check">Calcular custos fixos</div>
+            <div class="btn-check">Estrutura física segura</div>
+            <div class="btn-check">Documentação e Registro</div>
+        </div>
     </section>
 
-    <section>
-        <h2>Raça, Aptidão e Documentação</h2>
-        <h3>Exemplos de Raças e Usos:</h3>
-        <ul>
-            <li><strong>Quarto de Milha:</strong> Comum em provas de laço e tambor.</li>
-            <li><strong>Mangalarga Marchador:</strong> Marcha confortável para cavalgadas.</li>
-            <li><strong>Crioulo:</strong> Resistência extrema e trabalho de campo.</li>
-        </ul>
-
-        <h3>Documentação Legal:</h3>
-        <ul class="bullet-list">
-            <li>Nota fiscal ou contrato de compra e venda;</li>
-            <li>Registro em associação (se o animal for registrado);</li>
-            <li><strong>Exame negativo para Anemia Infecciosa Equina (AIE);</strong></li>
-            <li>GTA (Guia de Trânsito Animal) para o transporte.</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Planejamento a Longo Prazo</h2>
-        <p>Lembre-se: Um cavalo pode viver de <strong>25 a 30 anos</strong>. Pergunte-se:</p>
-        <ul class="bullet-list">
-            <li>Se eu mudar de cidade, o que farei com o animal?</li>
-            <li>Tenho reserva financeira para emergências (cirurgias, internações)?</li>
-            <li>Tenho tempo disponível para o manejo diário?</li>
-        </ul>
-    </section>
-<style>
-    .compra-app-module {
-        background-color: #000;
-        color: #fff;
-        font-family: 'Segoe UI', Roboto, sans-serif;
-        padding: 15px;
-    }
-
-    .compra-app-module .checklist-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 12px;
-        margin-top: 20px;
-    }
-
-    .compra-app-module h2 {
-        color: #ffd700;
-        font-size: 1.2rem;
-        text-transform: uppercase;
-        text-align: center;
-        letter-spacing: 1px;
-        margin-bottom: 10px;
-    }
-
-    /* Estilização dos Botões */
-    .compra-app-module .btn-check {
-        background: linear-gradient(145deg, #1a1a1a, #0a0a0a);
-        border: 1px solid #333;
-        border-radius: 10px;
-        color: #eee;
-        padding: 15px 10px;
-        font-size: 0.85rem;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.3);
-        position: relative;
-        overflow: hidden;
-    }
-
-    /* Ícone de check dourado acima do texto */
-    .compra-app-module .btn-check::before {
-        content: "✓";
-        color: #ffd700;
-        font-weight: bold;
-        font-size: 1.1rem;
-        margin-bottom: 5px;
-    }
-
-    /* ANIMAÇÕES */
-    
-    /* Efeito ao passar o mouse ou manter pressionado */
-    .compra-app-module .btn-check:hover {
-        border-color: #ffd700;
-        transform: translateY(-3px);
-        background: linear-gradient(145deg, #222, #111);
-        box-shadow: 0 6px 12px rgba(255, 215, 0, 0.15);
-    }
-
-    /* Efeito de clique (feedback visual) */
-    .compra-app-module .btn-check:active {
-        transform: scale(0.95);
-        background: #ffd700;
-        color: #000;
-    }
-
-    .compra-app-module .btn-check:active::before {
-        color: #000;
-    }
-
-    /* Ajuste para telas pequenas (coluna única) */
-    @media (max-width: 400px) {
-        .compra-app-module .checklist-grid {
-            grid-template-columns: 1fr;
-        }
-        .compra-app-module .btn-check {
-            flex-direction: row;
-            justify-content: flex-start;
-            padding-left: 20px;
-        }
-        .compra-app-module .btn-check::before {
-            margin-bottom: 0;
-            margin-right: 15px;
-        }
-    }
-</style>
-
-<div class="compra-app-module">
-    <h2>Resumo Pré-Compra</h2>
-    
-    <div class="checklist-grid">
-        <div class="btn-check">Definir objetivo claro - sobre o uso do animal</div>
-        <div class="btn-check">Fazer exame pré-compra - Para avaliar a saúde do animal</div>
-        <div class="btn-check">Conferir histórico sanitário - Para verificar quais doenças ele já teve e quais vacinas tomou</div>
-        <div class="btn-check">Avaliar comportamento - Para identificar se será tranquilo lidar com ele</div>
-        <div class="btn-check">Calcular custos reais - Saber quanto você gasta com o animal pode ser bem útil no aperto financeiro</div>
-        <div class="btn-check">Ter estrutura adequada - O animal precisa ter um ambiente seguro e confortável</div>
-        <div class="btn-check" style="grid-column: span 1;">Conferir documentação - Evita problemas com fiscalização</div>
-    </div>
-</div>
     <footer>
-        <p>SOS EQUISAÚDE © 2026 - CONSULTORIA EM BEM-ESTAR E SAÚDE EQUINA</p>
+        <p>SOS EQUISAÚDE © 2026 - CONSULTORIA EM SAÚDE EQUINA</p>
     </footer>
 </div>
+
+</body>
+</html>
